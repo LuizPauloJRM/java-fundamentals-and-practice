@@ -16,10 +16,14 @@ public class TiposPrimitivos {
         boolean falso= false;
         char caractere = 65;//Unicode ou asc
 
+        //String -> Classe
+        String nome = "Luiz";
+
 
         System.out.println("Idade : " + idade);
         System.out.println(verdadeiro);
         System.out.println(caractere);
+        System.out.println(nome);
 
 
     }
