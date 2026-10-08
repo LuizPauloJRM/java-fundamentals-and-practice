@@ -8,7 +8,7 @@ public class TiposPrimitivos {
         //int idade= 26;
         int idade=(int) 10000000L;//Casting
         long hash=123456789;
-        double salario = 2000;
+        double salarioDouble = 2000;
         float salarioFloat= 2500;
         byte idadeByte = -120;
         short idadeShort=20;
