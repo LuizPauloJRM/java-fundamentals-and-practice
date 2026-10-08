@@ -15,7 +15,7 @@
             int resto = 21 % 7 ;
             System.out.println(resto);
             
-            //Operador Lógico
+            //Operador Comparação
             // < menor
             // >maior
             // <= menor igual
@@ -28,6 +28,16 @@
             System.out.println(isDezMaiorQueVinte);
             System.out.println(isDezMenorQueVinte);
             System.out.println(isDezIgualVinte);
+
+            //Operadores Lógicos And
+            // && e (And)
+            // || ou (or)
+            // ! não (not)
+            int idade = 26;
+            float salario = 3500F;
+            boolean isEstaDentroDaLei =  idade > 30 && salario >= 4000;
+            System.out.println(isEstaDentroDaLei);
+
 
         }
     }
