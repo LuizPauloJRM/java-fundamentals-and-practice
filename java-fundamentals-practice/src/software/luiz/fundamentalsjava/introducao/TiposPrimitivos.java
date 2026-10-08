@@ -20,6 +20,39 @@ public class TiposPrimitivos {
         String nome = "Luiz";
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         System.out.println("Idade : " + idade);
         System.out.println(verdadeiro);
         System.out.println(caractere);
