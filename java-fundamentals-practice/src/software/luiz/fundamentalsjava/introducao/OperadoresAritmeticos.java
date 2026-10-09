@@ -47,6 +47,29 @@
             System.out.println("Posso comprar um carro no momento : " + isCompraDeCarro);
 
 
+            //Operador de Atribuição
+            // = += -= /= %=
+            double dinheiro = 1200;
+            //dinheiro = dinheiro + 1000;
+            //Atribuindo  com +=
+            dinheiro += 1000;//2200
+            dinheiro -= 1000;//1200
+            dinheiro *= 2;//2400
+            dinheiro /= 2;//1200
+            System.out.println(dinheiro);
+
+                int contador = 0;
+                //Atribuição depois -> primeiro executa a variável depois incrementa  +1
+                contador ++; // 1
+                contador --;
+
+                //Atribuições antes -> Primeiro executar o incremento  , depois imprime na tela
+                -- contador;
+                ++ contador;
+
+                System.out.println(contador);
+
+
 
 
 
