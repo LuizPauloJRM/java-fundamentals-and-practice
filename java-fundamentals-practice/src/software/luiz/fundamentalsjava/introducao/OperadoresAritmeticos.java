@@ -29,7 +29,7 @@
             System.out.println(isDezMenorQueVinte);
             System.out.println(isDezIgualVinte);
 
-            //Operadores Lógicos And
+            //Operadores Lógicos And &&
             // && e (And)
             // || ou (or)
             // ! não (not)
@@ -37,6 +37,14 @@
             float salario = 3500F;
             boolean isEstaDentroDaLei =  idade > 30 && salario >= 4000;//Um e Outro operador ambos  && -> E
             System.out.println(isEstaDentroDaLei);
+
+            //Operador Lógico Or ||
+            double valorTotalContaCorrente = 200;
+            double valorTotalCaixinha = 5000;
+
+            float valorCarro = 68000F;
+            boolean isCompraDeCarro=valorTotalContaCorrente > valorCarro || valorTotalCaixinha > valorCarro;
+            System.out.println("Posso comprar um carro no momento : " + isCompraDeCarro);
 
 
 
