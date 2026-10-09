@@ -35,8 +35,11 @@
             // ! não (not)
             int idade = 26;
             float salario = 3500F;
-            boolean isEstaDentroDaLei =  idade > 30 && salario >= 4000;
+            boolean isEstaDentroDaLei =  idade > 30 && salario >= 4000;//Um e Outro operador ambos  && -> E
             System.out.println(isEstaDentroDaLei);
+
+
+
 
 
         }
